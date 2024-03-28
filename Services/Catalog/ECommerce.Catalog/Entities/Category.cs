@@ -8,7 +8,6 @@ namespace ECommerce.Catalog.Entities
 		[BsonId]
 		[BsonRepresentation(BsonType.ObjectId)]
 		public String CategoryID{ get; set; }
-
 		public String CategoryName{ get; set; }
 	}
 }
